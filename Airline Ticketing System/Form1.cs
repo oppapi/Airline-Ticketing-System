@@ -12,9 +12,13 @@ namespace Airline_Ticketing_System
 {
     public partial class Form1 : Form
     {
+        private bookingPanel booking;
+        private searchPanel search;
         public Form1()
         {
             InitializeComponent();
+            booking = bookingPanel1;
+            search = searchPanel1;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -66,6 +70,18 @@ namespace Airline_Ticketing_System
         private void panel3_Paint_1(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnFlight_Click(object sender, EventArgs e)
+        {
+            search.Visible = true;
+            booking.Visible = false;
+        }
+
+        private void btnPayment_Click(object sender, EventArgs e)
+        {
+            booking.Visible = true;
+            search.Visible = false;
         }
     }
 }

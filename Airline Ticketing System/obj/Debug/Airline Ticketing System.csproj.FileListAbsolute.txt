@@ -8,3 +8,11 @@ C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ti
 C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline Ticketing System.csproj.CoreCompileInputs.cache
 C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline Ticketing System.exe
 C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline Ticketing System.pdb
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.adminLogin.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.bookingPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.flightsPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.logsPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.paymentPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.rebookPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.searchPanel.resources
+C:\Users\John Carl\source\repos\Chipher Code\Airline Ticketing System\Airline Ticketing System\obj\Debug\Airline_Ticketing_System.ticketPanel.resources
