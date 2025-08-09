@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Airline_Ticketing_System
+{
+    internal class accessDB
+    {
+        public void insertPlane(string flightNum, string planeName)
+        {
+            SqlConnection conn = new SqlConnection("Server=OLA\\SQLEXPRESS;Database=airlineDB;Trusted_Connection=True;");
+            using (conn)
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand("insertPlane", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@flightNum", flightNum);
+                        cmd.Parameters.AddWithValue("@planeName", planeName);
+                        cmd.ExecuteNonQuery();
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Operation successful!");
+                            conn.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Operation failed!");
+                            conn.Close();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Connection failed: " + ex.Message);
+                }
+            }
+        }
+    }
+}
