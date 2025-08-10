@@ -14,11 +14,22 @@ namespace Airline_Ticketing_System
     {
         private bookingPanel booking;
         private searchPanel search;
+        private Form1 mainform;
+        //private logsPanel logs;
+        //private paymentPanel payment;
+        //private rebookPanel rebook;
+        //private ticketPanel ticket;
         public Form1()
         {
             InitializeComponent();
             booking = bookingPanel1;
             search = searchPanel1;
+            mainform = this;
+        }
+        public void showSearch()
+        {
+            booking.Visible = false;
+            search.Visible = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)

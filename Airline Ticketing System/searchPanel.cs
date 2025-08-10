@@ -17,6 +17,11 @@ namespace Airline_Ticketing_System
             InitializeComponent();
         }
 
+        public void choosePlane(string fname, int numPass, string depart, string desti, string departDate)
+        {
+
+        }
+
         private void btnTicket_Click(object sender, EventArgs e)
         {
 
@@ -28,6 +33,11 @@ namespace Airline_Ticketing_System
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
         {
 
         }

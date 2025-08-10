@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accessDB.cs" />
     <Compile Include="adminLogin.cs">
       <SubType>Form</SubType>
     </Compile>

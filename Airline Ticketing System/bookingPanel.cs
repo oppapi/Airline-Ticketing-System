@@ -21,5 +21,18 @@ namespace Airline_Ticketing_System
         {
 
         }
+
+        public void setMainForm()
+        {
+
+        }
+
+        private void btnTicket_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = (Form1)this.FindForm();
+            accessDB db = new accessDB();
+            db.setBooking(txtFullname.Text, Convert.ToInt32(txtNumPass.Text), txtDeparture.Text, txtDestination.Text, txtDepartureDate.Text);
+            form1.showSearch();
+        }
     }
 }

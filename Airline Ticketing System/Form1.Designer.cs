@@ -38,8 +38,8 @@
             this.btnFlight = new System.Windows.Forms.Button();
             this.btnPayment = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bookingPanel1 = new Airline_Ticketing_System.bookingPanel();
             this.searchPanel1 = new Airline_Ticketing_System.searchPanel();
+            this.bookingPanel1 = new Airline_Ticketing_System.bookingPanel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,6 +188,15 @@
             this.panel2.Size = new System.Drawing.Size(1068, 82);
             this.panel2.TabIndex = 1;
             // 
+            // searchPanel1
+            // 
+            this.searchPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(232)))));
+            this.searchPanel1.Location = new System.Drawing.Point(231, 89);
+            this.searchPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.searchPanel1.Name = "searchPanel1";
+            this.searchPanel1.Size = new System.Drawing.Size(1040, 542);
+            this.searchPanel1.TabIndex = 3;
+            // 
             // bookingPanel1
             // 
             this.bookingPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(232)))));
@@ -197,15 +206,6 @@
             this.bookingPanel1.Size = new System.Drawing.Size(1040, 542);
             this.bookingPanel1.TabIndex = 2;
             this.bookingPanel1.Visible = false;
-            // 
-            // searchPanel1
-            // 
-            this.searchPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(207)))), ((int)(((byte)(232)))));
-            this.searchPanel1.Location = new System.Drawing.Point(231, 89);
-            this.searchPanel1.Margin = new System.Windows.Forms.Padding(4);
-            this.searchPanel1.Name = "searchPanel1";
-            this.searchPanel1.Size = new System.Drawing.Size(1040, 542);
-            this.searchPanel1.TabIndex = 3;
             // 
             // Form1
             // 
